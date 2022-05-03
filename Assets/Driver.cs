@@ -41,7 +41,7 @@ public class Driver : MonoBehaviour
         }
        if(collision.tag == "FinishArea")
         {
-            if(boxCount == 6)
+            if(boxCount >= 6)
             {
                 textMeshPro.text = "YOU WIN";
             }
